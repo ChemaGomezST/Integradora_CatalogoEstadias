@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 23/06/2019 08:08:21 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="mx.utxj.ti.estadia.model.pojos.EvaluacionEstadia" table="evaluacion_estadia" catalog="bd_estadia" optimistic-lock="version">
+        <composite-id name="id" class="mx.utxj.ti.estadia.model.pojos.EvaluacionEstadiaId">
+            <key-property name="id" type="int">
+                <column name="id" />
+            </key-property>
+            <key-property name="empresasId" type="int">
+                <column name="empresas_id" />
+            </key-property>
+        </composite-id>
+        <many-to-one name="empresas" class="mx.utxj.ti.estadia.model.pojos.Empresas" update="false" insert="false" fetch="select">
+            <column name="empresas_id" not-null="true" />
+        </many-to-one>
+        <property name="calificacion" type="string">
+            <column name="Calificacion" length="9" not-null="true" />
+        </property>
+        <property name="comentarios" type="string">
+            <column name="Comentarios" length="45" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

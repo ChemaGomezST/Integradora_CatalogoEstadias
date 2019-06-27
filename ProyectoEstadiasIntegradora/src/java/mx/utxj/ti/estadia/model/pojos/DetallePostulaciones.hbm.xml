@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 23/06/2019 08:08:21 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="mx.utxj.ti.estadia.model.pojos.DetallePostulaciones" table="detalle_postulaciones" catalog="bd_estadia" optimistic-lock="version">
+        <id name="id" type="java.lang.Integer">
+            <column name="id" />
+            <generator class="foreign">
+                <param name="property">postulacionesById</param>
+            </generator>
+        </id>
+        <one-to-one name="postulacionesById" class="mx.utxj.ti.estadia.model.pojos.Postulaciones" constrained="true"></one-to-one>
+        <many-to-one name="postulacionesByPostulacionesId" class="mx.utxj.ti.estadia.model.pojos.Postulaciones" fetch="select">
+            <column name="postulaciones_id" not-null="true" />
+        </many-to-one>
+        <property name="descripcion" type="string">
+            <column name="Descripcion" length="70" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>
