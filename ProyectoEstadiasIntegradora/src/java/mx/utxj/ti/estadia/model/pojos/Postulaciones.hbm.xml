@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 23/06/2019 08:08:21 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="mx.utxj.ti.estadia.model.pojos.Postulaciones" table="postulaciones" catalog="bd_estadia" optimistic-lock="version">
+        <id name="id" type="java.lang.Integer">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="propuesta" class="mx.utxj.ti.estadia.model.pojos.Propuesta" fetch="select">
+            <column name="propuesta_id" not-null="true" />
+        </many-to-one>
+        <property name="fechaPostulacion" type="timestamp">
+            <column name="Fecha_postulacion" length="19" not-null="true" />
+        </property>
+        <property name="observaciones" type="string">
+            <column name="Observaciones" length="45" not-null="true" />
+        </property>
+        <property name="estatus" type="string">
+            <column name="Estatus" length="11" not-null="true" />
+        </property>
+        <one-to-one name="detallePostulacionesById" class="mx.utxj.ti.estadia.model.pojos.DetallePostulaciones"></one-to-one>
+        <set name="detallePostulacionesesForPostulacionesId" table="detalle_postulaciones" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="postulaciones_id" not-null="true" />
+            </key>
+            <one-to-many class="mx.utxj.ti.estadia.model.pojos.DetallePostulaciones" />
+        </set>
+    </class>
+</hibernate-mapping>

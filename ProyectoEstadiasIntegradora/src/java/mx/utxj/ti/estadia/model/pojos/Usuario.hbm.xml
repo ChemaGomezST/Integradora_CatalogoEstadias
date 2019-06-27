@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 23/06/2019 08:08:21 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="mx.utxj.ti.estadia.model.pojos.Usuario" table="usuario" catalog="bd_estadia" optimistic-lock="version">
+        <id name="id" type="java.lang.Integer">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <property name="nombre" type="string">
+            <column name="Nombre" length="45" not-null="true" />
+        </property>
+        <property name="apellido" type="string">
+            <column name="Apellido" length="45" not-null="true" />
+        </property>
+        <property name="tipo" type="string">
+            <column name="Tipo" length="45" not-null="true" />
+        </property>
+        <set name="personases" table="personas" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="usuario_id" not-null="true" />
+            </key>
+            <one-to-many class="mx.utxj.ti.estadia.model.pojos.Personas" />
+        </set>
+        <set name="asignacions" table="asignacion" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="usuario_id" not-null="true" />
+            </key>
+            <one-to-many class="mx.utxj.ti.estadia.model.pojos.Asignacion" />
+        </set>
+    </class>
+</hibernate-mapping>

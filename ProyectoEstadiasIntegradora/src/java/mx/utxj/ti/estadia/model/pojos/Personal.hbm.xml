@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 23/06/2019 08:08:21 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="mx.utxj.ti.estadia.model.pojos.Personal" table="personal" catalog="bd_estadia" optimistic-lock="version">
+        <id name="id" type="java.lang.Integer">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <property name="cargo" type="string">
+            <column name="Cargo" length="45" not-null="true" />
+        </property>
+        <property name="nombre" type="string">
+            <column name="Nombre" length="45" not-null="true" />
+        </property>
+        <property name="apellido" type="string">
+            <column name="Apellido" length="45" not-null="true" />
+        </property>
+        <property name="correo" type="string">
+            <column name="Correo" length="45" not-null="true" />
+        </property>
+        <set name="propuestas" table="propuesta" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="personal_id" not-null="true" />
+            </key>
+            <one-to-many class="mx.utxj.ti.estadia.model.pojos.Propuesta" />
+        </set>
+        <set name="personases" table="personas" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="personal_id" not-null="true" />
+            </key>
+            <one-to-many class="mx.utxj.ti.estadia.model.pojos.Personas" />
+        </set>
+    </class>
+</hibernate-mapping>
