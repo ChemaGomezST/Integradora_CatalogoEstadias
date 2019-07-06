@@ -22,8 +22,8 @@ Fecha: 16/05/2019
 | Gerente / Líder de Proyecto | José María Gómez Santos |
 | Gerente / Líder de Análisis de negocio y requerimientos | Sergio Cruz Molina |
 ### Aprobaciones
-| Nombre y Apellido| Cargo| Departamento u Organización| Nombre y Apellido| Fecha| Firma|
-| ----- | ---- |----- | ---- |----- | ---- |
+| Nombre y Apellido| Cargo| Departamento u Organización| Fecha| Firma|
+| ----- | ---- |----- | ---- |----- | 
 | Esmeralda Hernández Hernández | Programador | GROUP DIGITAL | 16/05/2019 | 	|
 | José María Gómez Santos | Líder | GROUP DIGITAL | 16/05/2019 | 	|
 | Sergio Cruz Molina | Analista | GROUP DIGITAL | 16/05/2019 | 	|
