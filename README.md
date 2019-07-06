@@ -241,10 +241,10 @@ Acciones y Comportamiento esperado: El alumno podrá loguearse con su matrícula
 * Con la ayuda del teclado y el mouse, el usuario ingresara su matrícula al login del sistema, solo con el requisito de estar registrado en la Base de Datos.
 #### Interfaces de software 🛠️
 ##### Interfaz de NetBeans
-![](.../master/imagenes/netbeans.PNG)
+![](https://github.com/ChemaGomezST/ProyectoEstadias_Terminal/blob/master/imagenes/netbeans.PNG)
 * NetBeans es un entorno de desarrollo integrado libre, hecho principalmente para el lenguaje de programación Java. Existe además un número importante de módulos para extenderlo. NetBeans IDE​ es un producto libre y gratuito sin restricciones de uso. Será una herramienta de desarrollo de software. 
 ##### Interfaz de MySQL Workbench
-![](.../master/imagenes/workbench.PNG)
+![](https://github.com/ChemaGomezST/ProyectoEstadias_Terminal/blob/master/imagenes/workbench.PNG)
 * MySQL Workbench es una herramienta visual de diseño de bases de datos que integra desarrollo de software, administración de bases de datos, diseño de bases de datos, gestión y mantenimiento para el sistema de base de datos MySQL
 #### Interfaces de comunicación
 * Requerimientos de las funciones de comunicación que requiere el producto. 
