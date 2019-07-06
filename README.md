@@ -203,14 +203,19 @@ Acciones y Comportamiento esperado: El alumno podrá loguearse con su matrícula
 ![](../master/imagenes/movil1.PNG) ![](../master/imagenes/movil2.PNG)
 * Como se muestra en la imagen de “Interfaz de logueo de usuario” podran ingresar todos los usuarios que el administrador registro en la base de datos. Así se podran viasualizar el catalogo de las empresas disponibles dependiendo del periodo del alumno siendo nivel de T.S.U o Ingenieria.
 ##### REGISTRÓ DE EMPRESAS
-![](../master/imagenes/movil2.PNG)
-Como se muestra en la interfaz de Registro de Empresas con el Coordinador Académico de Estadías confirmará la asignación de alumno a la estadía, aprueba el registro del alumno y tiene la capacidad de agregar proyectos nuevos para realizar estadías.
-##### REGISTRÓ DE VACANTES DE ESTADÍA.
 ![](../master/imagenes/web2.PNG)
 ![](../master/imagenes/web3.PNG)
 ![](../master/imagenes/movil3.PNG)
-El coordinador de estadías registra una empresa con información detallada en donde subirá características de la empresa, como su ubicación, las áreas disponibles, número de vacantes etc.
+* Como se muestra en la interfaz de Registro de Empresas con el Coordinador Académico de Estadías confirmará la asignación de alumno a la estadía, aprueba el registro del alumno y tiene la capacidad de agregar proyectos nuevos para realizar estadías.
+
+##### REGISTRÓ DE VACANTES DE ESTADÍA.
+![](../master/imagenes/web4.PNG)
+![](../master/imagenes/movil4.PNG)
+* El coordinador de estadías registra una empresa con información detallada en donde subirá características de la empresa, como su ubicación, las áreas disponibles, número de vacantes etc.
 ##### REGISTRO DE POSTULACIONES
+![](../master/imagenes/web5.PNG)
+![](../master/imagenes/web6.PNG)
+![](../master/imagenes/movil4.PNG) ![](../master/imagenes/movil5.PNG)
 El alumno podrá agregar todas las opciones de postulación para realizar su estadía que haya sido de su agrado y ver cuales selecciono.  
 ##### REGISTRO DE PROPUESTAS
 Todos los usuarios podrán ver esta interfaz haciendo el registro de las empresas.
