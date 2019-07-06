@@ -1,8 +1,11 @@
+![myimage-alt-tag](../Mayte_xD/Interfaces/logo_groupdigital.jpg)![myimage-alt-tag](../Mayte_xD/Interfaces/logo_estadias.jpg)  
+
 # ProyectoEstadias_Terminal
 Proyecto de Estadía para Integradora
 
 ## Documento de requerimientos de Software 📋
 "Catalogo Digital de Estadias"
+<br>
 Fecha: 16/05/2019
 ### Proposito 🚀
 _Realizar un catálogo digital para tener más rapidez en el proceso de estadías al elegir la empresa a donde quiera ir a hacer su estadía el alumno, de esta manera el estudiante tendrá la opción de escoger de la gran variedad de empresas para realizar su propuesta de estadía, nuestra plataforma informática ayudara a que el alumno conozca el top de las empresas más solicitadas, los beneficios que las empresas brindan como  hospedaje, alimentos, o apoyo económico para los alumnos, así como también incluirá un módulo de información sobre los programas de intercambio como el Programa Delfín, Mexprotec, entre otros, también contara con un apartado de los casos de éxito que existen en el área de TIC, así como también tendrá la funcionalidad de darle la opción de que el alumno se postule a la empresa que le llame más la atención y así pueda subir su curriculum vitae y esto agilizara más el proceso de estadías._
@@ -196,6 +199,9 @@ Acciones y Comportamiento esperado: El alumno podrá loguearse con su matrícula
 ### Requerimientos de interfaces externas
 #### Interfaces de usuario ⌨️
 ##### LOGUEO E IDENTIFICACIÓN DE USUARIOS
+![myimage-alt-tag](../Mayte_xD/Interfaces/web/1.png)
+![myimage-alt-tag](../Mayte_xD/Interfaces/movil/1.png)
+![myimage-alt-tag](../Mayte_xD/Interfaces/movil/2.png)
 Como se muestra en la imagen de “Interfaz de logueo de usuario” podran ingresar todos los usuarios que el administrador registro en la base de datos. Así se podran viasualizar el catalogo de las empresas disponibles dependiendo del periodo del alumno siendo nivel de T.S.U o Ingenieria.
 ##### REGISTRÓ DE EMPRESAS
 Como se muestra en la interfaz de Registro de Empresas con el Coordinador Académico de Estadías confirmará la asignación de alumno a la estadía, aprueba el registro del alumno y tiene la capacidad de agregar proyectos nuevos para realizar estadías.
