@@ -216,25 +216,36 @@ Acciones y Comportamiento esperado: El alumno podrá loguearse con su matrícula
 ![](../master/imagenes/web5.PNG)
 ![](../master/imagenes/web6.PNG)
 ![](../master/imagenes/movil4.PNG) ![](../master/imagenes/movil5.PNG)
-El alumno podrá agregar todas las opciones de postulación para realizar su estadía que haya sido de su agrado y ver cuales selecciono.  
+* El alumno podrá agregar todas las opciones de postulación para realizar su estadía que haya sido de su agrado y ver cuales selecciono. 
 ##### REGISTRO DE PROPUESTAS
-Todos los usuarios podrán ver esta interfaz haciendo el registro de las empresas.
+![](../master/imagenes/web7.PNG)
+![](../master/imagenes/movil7.PNG)
+* Todos los usuarios podrán ver esta interfaz haciendo el registro de las empresas.
 ##### ASIGNACIÓN DE ESTADÍA
-El coordinador academico de estadias tendra la opción de ver la CV que haya subido el alumno y para que pueda asignarlo a una empresa que el alumno se haya postulado. 
+![](../master/imagenes/web8.PNG)
+![](../master/imagenes/movil8.PNG)
+* El coordinador academico de estadias tendra la opción de ver la CV que haya subido el alumno y para que pueda asignarlo a una empresa que el alumno se haya postulado. 
 ##### EVALUAR LA ESTADÍA
-El alumno podra visualizar el catalogo de empresas y calificar la empresa mediante un numero de estrellas del 1-5.
+![](../master/imagenes/web9.PNG)
+![](../master/imagenes/movil9.PNG)
+* El alumno podra visualizar el catalogo de empresas y calificar la empresa mediante un numero de estrellas del 1-5.
 #### Interfaces de hardware
 ##### Imagen de PC
-El usuario podrá utilizar el sistema en cualquier pc. En el sistema operativo que sea de su agrado, teniendo en cuenta que uno de los requerimientos es usar un navegador que puedan ingresar al sitio.  
+![](../master/imagenes/compu.png)
+* El usuario podrá utilizar el sistema en cualquier pc. En el sistema operativo que sea de su agrado, teniendo en cuenta que uno de los requerimientos es usar un navegador que puedan ingresar al sitio.  
 ##### Imagen del sistema operativo de una PC
-El usuario podrá ingresar a la aplicación desde el sistema operativo que sea de su agrado.
+![](../master/imagenes/iner.png)
+* El usuario podrá ingresar a la aplicación desde el sistema operativo que sea de su agrado.
 ##### Imagen de teclado y mouse de una PC
-Con la ayuda del teclado y el mouse, el usuario ingresara su matrícula al login del sistema, solo con el requisito de estar registrado en la Base de Datos.
+![](../master/imagenes/teclado.png)
+* Con la ayuda del teclado y el mouse, el usuario ingresara su matrícula al login del sistema, solo con el requisito de estar registrado en la Base de Datos.
 #### Interfaces de software 🛠️
 ##### Interfaz de NetBeans
-NetBeans es un entorno de desarrollo integrado libre, hecho principalmente para el lenguaje de programación Java. Existe además un número importante de módulos para extenderlo. NetBeans IDE​ es un producto libre y gratuito sin restricciones de uso. Será una herramienta de desarrollo de software. 
+![](.../master/imagenes/netbeans.PNG)
+* NetBeans es un entorno de desarrollo integrado libre, hecho principalmente para el lenguaje de programación Java. Existe además un número importante de módulos para extenderlo. NetBeans IDE​ es un producto libre y gratuito sin restricciones de uso. Será una herramienta de desarrollo de software. 
 ##### Interfaz de MySQL Workbench
-MySQL Workbench es una herramienta visual de diseño de bases de datos que integra desarrollo de software, administración de bases de datos, diseño de bases de datos, gestión y mantenimiento para el sistema de base de datos MySQL
+![](.../master/imagenes/workbench.PNG)
+* MySQL Workbench es una herramienta visual de diseño de bases de datos que integra desarrollo de software, administración de bases de datos, diseño de bases de datos, gestión y mantenimiento para el sistema de base de datos MySQL
 #### Interfaces de comunicación
 * Requerimientos de las funciones de comunicación que requiere el producto. 
 * Protocolo de Email.
