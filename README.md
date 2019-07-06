@@ -7,6 +7,28 @@ Proyecto de Estadía para Integradora
 "Catalogo Digital de Estadias"
 <br>
 Fecha: 16/05/2019
+### Historial de Versiones
+| Fecha	| Versión | Autor | Organización | Descripción |
+| ----- | ---- |----- | ---- |----- | 
+| 12/02/2019 | 1 | José María Gómez Santos | GROUP DIGITAL | Primera versión del catalogo Estadías UTXJ |
+				
+### Información del Proyecto
+| Empresa/Organización	| GROUP DIGITAL|
+| ----- | ---- |
+| Proyecto | Estadías |
+|Fecha de preparación	| 16/05/2019 |
+| Cliente | Universidad Tecnológica de Xicotepec de Juárez |
+| Patrocinador principal | M.T.I Marco Antonio Ramírez Hernández |
+| Gerente / Líder de Proyecto | José María Gómez Santos |
+| Gerente / Líder de Análisis de negocio y requerimientos | Sergio Cruz Molina |
+### Aprobaciones
+| Nombre y Apellido| Cargo| Departamento u Organización| Nombre y Apellido| Fecha| Firma|
+| ----- | ---- |----- | ---- |----- | ---- |
+| Esmeralda Hernández Hernández | Programador | GROUP DIGITAL | 16/05/2019 | 	|
+| José María Gómez Santos | Líder | GROUP DIGITAL | 16/05/2019 | 	|
+| Sergio Cruz Molina | Analista | GROUP DIGITAL | 16/05/2019 | 	|
+| Mayte Esmeralda Patricio Rivera | Diseñador | GROUP DIGITAL | 16/05/2019 | 	|
+| Omar Estrada Juárez | Tester | GROUP DIGITAL | 16/05/2019 | 	|
 ### Proposito 🚀
 _Realizar un catálogo digital para tener más rapidez en el proceso de estadías al elegir la empresa a donde quiera ir a hacer su estadía el alumno, de esta manera el estudiante tendrá la opción de escoger de la gran variedad de empresas para realizar su propuesta de estadía, nuestra plataforma informática ayudara a que el alumno conozca el top de las empresas más solicitadas, los beneficios que las empresas brindan como  hospedaje, alimentos, o apoyo económico para los alumnos, así como también incluirá un módulo de información sobre los programas de intercambio como el Programa Delfín, Mexprotec, entre otros, también contara con un apartado de los casos de éxito que existen en el área de TIC, así como también tendrá la funcionalidad de darle la opción de que el alumno se postule a la empresa que le llame más la atención y así pueda subir su curriculum vitae y esto agilizara más el proceso de estadías._
 ### Alcance del producto / Software 
@@ -19,7 +41,7 @@ _El catálogo de estadías alcanzará facilitar el procedimiento de estadías, e
 http://estandarescalidadsoftware.blogspot.com/
 
 * Gestión de software:
-http://www.fing.edu.uy/inco/cursos/gestsoft/Presentaciones/Evaluacion%20de%20Productos%20-%20G2/Evaluacion%20de%20Productos.pdf
+http://www.fing.edu.uy/inco/cursos/gestsoft/Presentaciones/Evaluacion%20de%20Productos%20-%20G2/Evaluacion%20de%20Productos.pdf	
 
 * ISO-9000: 
 Gestión y aseguramiento de calidad (conceptos y directrices generales). Recomendaciones externas para aseguramiento de la calidad (ISO 9001, ISO 9002, ISO 9003).
@@ -68,13 +90,14 @@ http://www.redalyc.org/articulo.oa?id=92218339013
 *	Todos los usuarios podrán loguearse con su matrícula para poder acceder a la página de Estadías.
 
 ### Clases y características de usuarios
-  
-#### Usuario. Administrador	
+ 
+ #### Usuario. Administrador 
 * Encargado de manipular los datos dentro de la aplicación.
 * Tiene Acceso a cualquier parte del sistema 
 * Se encarga de dar mantenimiento al sistema.
 * Se encarga de revisar los datos que sean ingresados al sistema, tomando en cuenta la fiabilidad con la que cuenta.
-* Cuenta con las funciones de Crear, Leer, Eliminar, Actualizar los datos de la base de datos._
+* Cuenta con las funciones de Crear, Leer, Eliminar, Actualizar los datos de la base de datos. |
+  
 #### Usuario Estudiante.	
 * Tiene la capacidad de agregar nuevas propuestas de Estadías, pero para ello requiere de aprobación del Administrador.
 *	Cuenta con la función de agregar comentarios, así como también dar una calificación a la empresa.
@@ -200,7 +223,7 @@ Acciones y Comportamiento esperado: El alumno podrá loguearse con su matrícula
 #### Interfaces de usuario ⌨️
 ##### LOGUEO E IDENTIFICACIÓN DE USUARIOS
 ![](../master/imagenes/web1.PNG)
-![](../master/imagenes/movil1.PNG) ![](../master/imagenes/movil2.PNG)
+![](https://github.com/ChemaGomezST/ProyectoEstadias_Terminal/blob/master/imagenes/movil1.PNG) ![](https://github.com/ChemaGomezST/ProyectoEstadias_Terminal/blob/master/imagenes/movil2.PNG)
 * Como se muestra en la imagen de “Interfaz de logueo de usuario” podran ingresar todos los usuarios que el administrador registro en la base de datos. Así se podran viasualizar el catalogo de las empresas disponibles dependiendo del periodo del alumno siendo nivel de T.S.U o Ingenieria.
 ##### REGISTRÓ DE EMPRESAS
 ![](../master/imagenes/web2.PNG)
