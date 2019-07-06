@@ -1,4 +1,4 @@
-![myimage-alt-tag](../Mayte_xD/Interfaces/logo_groupdigital.jpg)![myimage-alt-tag](../Mayte_xD/Interfaces/logo_estadias.jpg)  
+![](../master/imagenes/logo_groupdigital.jpg)![](../master/imagenes/logo_estadias.jpg)  
 
 # ProyectoEstadias_Terminal
 Proyecto de Estadía para Integradora
@@ -199,9 +199,9 @@ Acciones y Comportamiento esperado: El alumno podrá loguearse con su matrícula
 ### Requerimientos de interfaces externas
 #### Interfaces de usuario ⌨️
 ##### LOGUEO E IDENTIFICACIÓN DE USUARIOS
-![myimage-alt-tag](../Mayte_xD/Interfaces/web/1.png)
-![myimage-alt-tag](../Mayte_xD/Interfaces/movil/1.png)
-![myimage-alt-tag](../Mayte_xD/Interfaces/movil/2.png)
+![](../master/imagenes/web1.png)
+![myimage-alt-tag](../master/imagenes/movil1.png)
+![myimage-alt-tag](../master/imagenes/movil2.png)
 Como se muestra en la imagen de “Interfaz de logueo de usuario” podran ingresar todos los usuarios que el administrador registro en la base de datos. Así se podran viasualizar el catalogo de las empresas disponibles dependiendo del periodo del alumno siendo nivel de T.S.U o Ingenieria.
 ##### REGISTRÓ DE EMPRESAS
 Como se muestra en la interfaz de Registro de Empresas con el Coordinador Académico de Estadías confirmará la asignación de alumno a la estadía, aprueba el registro del alumno y tiene la capacidad de agregar proyectos nuevos para realizar estadías.
