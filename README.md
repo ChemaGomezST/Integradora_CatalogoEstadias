@@ -91,10 +91,8 @@ http://www.redalyc.org/articulo.oa?id=92218339013
 
 ### Clases y características de usuarios
  
- | Tipo de Usuario | TITULO2|
-| ----- | ---- |
-| CONTENIDO COLUMNA 1 | Características |
-| Usuario. Administrador | * Encargado de manipular los datos dentro de la aplicación.
+ #### Usuario. Administrador 
+* Encargado de manipular los datos dentro de la aplicación.
 * Tiene Acceso a cualquier parte del sistema 
 * Se encarga de dar mantenimiento al sistema.
 * Se encarga de revisar los datos que sean ingresados al sistema, tomando en cuenta la fiabilidad con la que cuenta.
