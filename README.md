@@ -29,11 +29,11 @@ Fecha: 16/05/2019
 | Sergio Cruz Molina | Analista | GROUP DIGITAL | 16/05/2019 | 	|
 | Mayte Esmeralda Patricio Rivera | Diseñador | GROUP DIGITAL | 16/05/2019 | 	|
 | Omar Estrada Juárez | Tester | GROUP DIGITAL | 16/05/2019 | 	|
-### Proposito 🚀
+### 1. Proposito 🚀
 _Realizar un catálogo digital para tener más rapidez en el proceso de estadías al elegir la empresa a donde quiera ir a hacer su estadía el alumno, de esta manera el estudiante tendrá la opción de escoger de la gran variedad de empresas para realizar su propuesta de estadía, nuestra plataforma informática ayudara a que el alumno conozca el top de las empresas más solicitadas, los beneficios que las empresas brindan como  hospedaje, alimentos, o apoyo económico para los alumnos, así como también incluirá un módulo de información sobre los programas de intercambio como el Programa Delfín, Mexprotec, entre otros, también contara con un apartado de los casos de éxito que existen en el área de TIC, así como también tendrá la funcionalidad de darle la opción de que el alumno se postule a la empresa que le llame más la atención y así pueda subir su curriculum vitae y esto agilizara más el proceso de estadías._
-### Alcance del producto / Software 
+### 2. Alcance del producto / Software 
 _El catálogo de estadías alcanzará facilitar el procedimiento de estadías, en cuanto a la postulación del alumno asía a una empresa donde él quiera realizar sus prácticas profesionales, el alumno podrá acceder al catálogo y ver las empresas a las cual se puede ir y en caso de no estar una empresa de su agrado podrá subir una propuesta a la cual postularse subiendo su curriculum, esto para que el coordinador de estadías de continuidad al proceso y también el catalogo podrá actualizarse en cada periodo, donde se actualizara la información y las empresas._
-### Referencias 📌
+### 3. Referencias 📌
 * Especificación de Requisitos Software según el estándar IEEE 830:
 	https://www.fdi.ucm.es/profesor/gmendez/docs/is0809/ieee830.pdf
   
@@ -58,7 +58,7 @@ La norma ISO/IEC 14598 es un estándar que proporciona un marco de trabajo para 
 Esta proporciona una guía para el uso de las nuevas series de estándares internacionales, llamados Requisitos y Evaluación de Calidad de Productos de Software (SQuaRE). Es una norma que se basa en la ISO 9126 y 14598 y su principal objetivo es determinar una guía para el desarrollo de los productos de software con la especificación y evaluación de requisitos de calidad. Establece criterios para la especificación de requisitos de calidad de productos software, sus métricas y su evaluación. El producto de software debe incorporar unas características, de tal manera que se garantice su eficiencia de uso a los requerimientos de los clientes. Se recomienda que los requisitos de calidad deban ser proporcionales a las necesidades de la aplicación y lo crítico que sea el correcto funcionamiento del sistema implementado._
 http://www.redalyc.org/articulo.oa?id=92218339013
 
-### Funcionalidades del producto 🖇️
+### 4. Funcionalidades del producto 🖇️
  #### REGISTRÓ DE EMPRESAS:
 
 *	Se hará llenado por todos los usuarios siendo: Administrador, Usuario – Estudiante, Coordinador Académico de Estadías y Coordinador Institucional de Estadías. Con el registro de sus características y su descripción de la empresa.
@@ -89,41 +89,26 @@ http://www.redalyc.org/articulo.oa?id=92218339013
 
 *	Todos los usuarios podrán loguearse con su matrícula para poder acceder a la página de Estadías.
 
-### Clases y características de usuarios
+### 5. Clases y características de usuarios
  
  #### Usuario. Administrador 
 * Encargado de manipular los datos dentro de la aplicación.
 * Tiene Acceso a cualquier parte del sistema 
 * Se encarga de dar mantenimiento al sistema.
 * Se encarga de revisar los datos que sean ingresados al sistema, tomando en cuenta la fiabilidad con la que cuenta.
-* Cuenta con las funciones de Crear, Leer, Eliminar, Actualizar los datos de la base de datos. |
+* Cuenta con las funciones de Crear, Leer, Eliminar, Actualizar los datos de la base de datos.
+* Aprueba el registro del alumno.
+* Tiene la capacidad de agregar proyectos nuevos para realizar estadía.
   
 #### Usuario Estudiante.	
 * Tiene la capacidad de agregar nuevas propuestas de Estadías, pero para ello requiere de aprobación del Administrador.
-*	Cuenta con la función de agregar comentarios, así como también dar una calificación a la empresa.
-*	Puede registraste en cualquier empresa siempre y cuando se encuentren vacantes disponibles
-*	Postulación
-*	Entrevista
-*	Actualización de datos personales
-#### Usuario Coordinador Académico de Estadías
-*	Confirma la asignación de alumno a la estadía.
-*	Cumple con las normas y procedimientos en materia de seguridad integral, establecidos por la organización.
-*	Tramita requisiciones de personal y materiales ante la coordinación administrativa.
-*	Aprueba el registro del alumno.
-*	Tiene la capacidad de agregar proyectos nuevos para realizar estadías.
-*	Cuenta con las funciones de Crear, Leer y Actualizar.
-#### Coordinador Institucional de Estadías.
-*	Aprueba el registro de las empresas
-*	Ingresa las vacantes disponibles para cada empresa por periodo
-*	Tiene la capacidad de agregar nuevas propuestas de Estadías, Programas de movilidad, pero para ello requiere de aprobación del Administrador.
-*	Puede verificar los registros de los estudiantes en el apartado de Vacantes 
-*	Cuenta con las funciones de Crear, Leer y Actualizar.
-#### Empresa 	
-*	La empresa puede subir su información en la página para poder mostrar las opciones de vacantes disponibles.
-*	Cuenta con las funciones de Crear y Actualizar.
-*	Tiene la capacidad de agregar proyectos para realizar la Estadía.
+* Cuenta con la función de agregar comentarios, así como también dar una calificación a la empresa.
+* Puede registraste en cualquier empresa siempre y cuando se encuentren vacantes disponibles.
+* Postulación.
+* Entrevista.
+* Actualización de datos personales.
 
-### Entorno operativo
+### 6. Entorno operativo
 En el software de ordenador, un entorno operativo o un entorno de aplicaciones integradas es el entorno en el que los usuarios ejecutan el software de aplicación. El entorno consiste en una interfaz de usuario proporcionada por un gestor de aplicaciones y normalmente una interfaz de programación de aplicaciones (API) al gestor de aplicaciones. 
 #### LENOVO IDEA CENTRE B5 SERIES	
 * Disco duro de 1 TB
@@ -168,7 +153,7 @@ En el software de ordenador, un entorno operativo o un entorno de aplicaciones i
 *	Corrector ortográfico.
 *	Canales (RSS)
 
-### Requerimientos funcionales ⌨️
+### 7. Requerimientos funcionales ⌨️
 #### 7.1 (Elección de empresa)
 Descripción: El alumno podrá ver más características de la empresa que le interese.
 Prioridad: Alto de prioridad.
@@ -208,7 +193,7 @@ Acciones y Comportamiento esperado: El alumno podrá loguearse con su matrícula
 * REQ-1: El catalogo digital identificara al tipo de usuario.
 * REQ-2: Lanzara las empresas vinculadas de acuerdo a la carrera del alumno.
 * REQ-3: Identificara de que carrera es el alumno.
-### Reglas de negocio 
+### 8. Reglas de negocio 
 *	El alumno podrá visualizar el catálogo de las empresas
 *	El administrador podrá actualizar los catálogos de acuerdo a las temporadas
 *	El alumno podrá ingresar sus datos para la postulación de alguna empresa
@@ -219,7 +204,7 @@ Acciones y Comportamiento esperado: El alumno podrá loguearse con su matrícula
 *	Si el alumno no se hace una propuesta no podrá postularse
 *	El alumno podrá postularse a varias empresas, pero solo será asignado a una
 *	El alumno podrá visualizar las coordenadas de las empresas
-### Requerimientos de interfaces externas
+### 9. Requerimientos de interfaces externas
 #### Interfaces de usuario ⌨️
 ##### LOGUEO E IDENTIFICACIÓN DE USUARIOS
 ![](../master/imagenes/web1.PNG)
@@ -291,7 +276,7 @@ Los sockets stream ofrecen un servicio orientado a conexión, donde los datos se
 *	El sistema debe poseer interfaces gráficas bien formadas.
 *	El sistema debe ser capaz de operar adecuadamente con hasta 10.000 usuarios con sesiones concurrentes.
 *	El sistema debe contar con un módulo de ayuda en línea.
-### Glosario✒️
+### 10. Glosario✒️
 ##### Currículum: 
 Currículo o curriculum vitae es un documento que presenta las habilidades, formación y experiencia laboral de una persona, con el fin de optar a un puesto de trabajo.
 ##### Logueo: 
@@ -315,7 +300,7 @@ Son acuerdos (normas) documentados que contienen especificaciones técnicas u ot
 ##### Interfaz: 
 Es lo que conocemos en inglés como interfaces. En informática, se utiliza para nombrar a la conexión funcional entre dos sistemas, programas, dispositivos o componentes de cualquier tipo, que proporciona una comunicación de distintos niveles permitiendo el intercambio de información.
 
-### Otros requerimientos 🛠️
+### 11. Otros requerimientos 🛠️
 *	El inicio de sesión no debe de tardar más de 3 minutos
 *	Debe de tener inicios de sesión simultáneamente sin errores
 *	La información de los usuarios debe de ser manejada de forma confidencial
